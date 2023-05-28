@@ -1,0 +1,4 @@
+#Sun May 28 12:03:43 CEST 2023
+base.0=/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

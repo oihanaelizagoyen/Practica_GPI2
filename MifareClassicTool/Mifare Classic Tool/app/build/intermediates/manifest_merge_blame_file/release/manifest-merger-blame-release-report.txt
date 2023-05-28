@@ -1,0 +1,378 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3/*
+4 * Copyright 2013 Gerhard Klostermeier
+5 *
+6 * This program is free software: you can redistribute it and/or modify
+7 * it under the terms of the GNU General Public License as published by
+8 * the Free Software Foundation, either version 3 of the License, or
+9 * (at your option) any later version.
+10 *
+11 * This program is distributed in the hope that it will be useful,
+12 * but WITHOUT ANY WARRANTY; without even the implied warranty of
+13 * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+14 * GNU General Public License for more details.
+15 *
+16 * You should have received a copy of the GNU General Public License
+17 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+18 */
+19-->
+20<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+21    package="de.syss.MifareClassicTool"
+22    android:versionCode="62"
+23    android:versionName="4.0.4" >
+24
+25    <uses-sdk
+26        android:minSdkVersion="19"
+26-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml
+27        android:targetSdkVersion="31" />
+27-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml
+28
+29    <uses-permission android:name="android.permission.NFC" />
+29-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:25:5-62
+29-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:25:22-59
+30
+31    <uses-feature
+31-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:27:5-29:35
+32        android:name="android.hardware.nfc"
+32-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:28:9-44
+33        android:required="true" />
+33-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:29:9-32
+34
+35    <permission
+35-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+36        android:name="de.syss.MifareClassicTool.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+36-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+37        android:protectionLevel="signature" />
+37-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+38
+39    <uses-permission android:name="de.syss.MifareClassicTool.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+39-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+39-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+40
+41    <application
+41-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:31:5-202:19
+42        android:name="de.syss.MifareClassicTool.Common"
+42-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:32:9-31
+43        android:allowBackup="false"
+43-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:33:9-36
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+45        android:icon="@mipmap/ic_launcher"
+45-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:35:9-43
+46        android:label="@string/app_name"
+46-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:36:9-41
+47        android:requestLegacyExternalStorage="true"
+47-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:34:9-52
+48        android:theme="@style/AppTheme" >
+48-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:37:9-40
+49
+50        <!-- Main Activity -->
+51        <activity
+51-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:39:9-50:20
+52            android:name="de.syss.MifareClassicTool.Activities.MainMenu"
+52-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:40:13-48
+53            android:configChanges="orientation|screenSize"
+53-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:41:13-59
+54            android:exported="true"
+54-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:43:13-36
+55            android:label="@string/title_activity_main"
+55-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:42:13-56
+56            android:launchMode="singleTop" >
+56-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:44:13-43
+57            <intent-filter>
+57-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:45:13-49:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:46:17-69
+58-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:46:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:48:17-77
+60-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:48:27-74
+61            </intent-filter>
+62        </activity>
+63
+64        <activity-alias
+64-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:52:9-65:26
+65            android:name="de.syss.MifareClassicTool.MainMenuAlias"
+65-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:54:13-42
+66            android:exported="true"
+66-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:56:13-36
+67            android:label="@string/title_activity_main"
+67-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:55:13-56
+68            android:launchMode="singleTop"
+68-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:57:13-43
+69            android:targetActivity="de.syss.MifareClassicTool.Activities.MainMenu" >
+69-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:53:13-58
+70
+71            <!-- NFC Tech Filter -->
+72            <intent-filter>
+72-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:59:13-61:29
+73                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+73-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:60:17-77
+73-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:60:25-74
+74            </intent-filter>
+75
+76            <meta-data
+76-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:62:13-64:59
+77                android:name="android.nfc.action.TECH_DISCOVERED"
+77-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:63:17-66
+78                android:resource="@xml/nfc_tech_filter" />
+78-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:64:17-56
+79        </activity-alias>
+80
+81        <!-- Content Providers -->
+82        <provider
+83            android:name="androidx.core.content.FileProvider"
+83-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:69:13-62
+84            android:authorities="de.syss.MifareClassicTool.fileprovider"
+84-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:72:13-64
+85            android:exported="false"
+85-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:71:13-37
+86            android:grantUriPermissions="true" >
+86-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:70:13-47
+87            <meta-data
+87-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:74:13-76:62
+88                android:name="android.support.FILE_PROVIDER_PATHS"
+88-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:75:17-67
+89                android:resource="@xml/file_provider_paths" />
+89-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:76:17-60
+90        </provider>
+91
+92        <!-- Other Activities -->
+93        <activity
+93-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:81:9-86:20
+94            android:name="de.syss.MifareClassicTool.Activities.KeyMapCreator"
+94-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:82:13-53
+95            android:configChanges="keyboardHidden|orientation|screenSize"
+95-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:83:13-74
+96            android:icon="@drawable/map_keys_to_sector"
+96-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:84:13-56
+97            android:label="@string/title_activity_create_key_map" >
+97-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:85:13-66
+98        </activity>
+99        <activity
+99-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:87:9-92:20
+100            android:name="de.syss.MifareClassicTool.Activities.DumpEditor"
+100-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:88:13-50
+101            android:configChanges="keyboardHidden|orientation|screenSize"
+101-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:89:13-74
+102            android:icon="@drawable/edit_dump"
+102-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:90:13-47
+103            android:label="@string/title_activity_dump_editor" >
+103-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:91:13-63
+104        </activity>
+105        <activity
+105-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:93:9-98:20
+106            android:name="de.syss.MifareClassicTool.Activities.FileChooser"
+106-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:94:13-51
+107            android:icon="@drawable/open"
+107-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:95:13-42
+108            android:label="@string/title_activity_file_chooser"
+108-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:96:13-64
+109            android:windowSoftInputMode="stateAlwaysHidden" >
+109-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:97:13-60
+110        </activity>
+111        <activity
+111-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:99:9-104:20
+112            android:name="de.syss.MifareClassicTool.Activities.AccessConditionDecoder"
+112-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:100:13-62
+113            android:configChanges="orientation|screenSize"
+113-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:101:13-59
+114            android:icon="@drawable/access_conditions"
+114-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:102:13-55
+115            android:label="@string/title_activity_access_conditions" >
+115-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:103:13-69
+116        </activity>
+117        <activity
+117-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:105:9-110:20
+118            android:name="de.syss.MifareClassicTool.Activities.ValueBlocksToInt"
+118-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:106:13-56
+119            android:configChanges="orientation|screenSize"
+119-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:107:13-59
+120            android:icon="@drawable/value_block_to_int"
+120-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:108:13-56
+121            android:label="@string/title_activity_value_blocks" >
+121-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:109:13-64
+122        </activity>
+123        <activity
+123-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:111:9-116:20
+124            android:name="de.syss.MifareClassicTool.Activities.WriteTag"
+124-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:112:13-48
+125            android:configChanges="keyboardHidden|orientation|screenSize"
+125-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:113:13-74
+126            android:icon="@drawable/write_tag"
+126-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:114:13-47
+127            android:label="@string/title_activity_write_tag" >
+127-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:115:13-61
+128        </activity>
+129        <activity
+129-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:117:9-122:20
+130            android:name="de.syss.MifareClassicTool.Activities.ReadTag"
+130-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:118:13-47
+131            android:configChanges="keyboardHidden|orientation|screenSize"
+131-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:119:13-74
+132            android:icon="@drawable/read_tag"
+132-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:120:13-46
+133            android:label="@string/title_activity_read_tag" >
+133-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:121:13-60
+134        </activity>
+135        <activity
+135-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:123:9-128:20
+136            android:name="de.syss.MifareClassicTool.Activities.KeyEditor"
+136-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:124:13-49
+137            android:configChanges="keyboardHidden|orientation|screenSize"
+137-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:125:13-74
+138            android:icon="@drawable/edit_keys"
+138-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:126:13-47
+139            android:label="@string/title_activity_key_editor" >
+139-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:127:13-62
+140        </activity>
+141        <activity
+141-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:129:9-134:20
+142            android:name="de.syss.MifareClassicTool.Activities.HelpAndInfo"
+142-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:130:13-51
+143            android:configChanges="orientation|screenSize"
+143-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:131:13-59
+144            android:icon="@drawable/help_and_info"
+144-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:132:13-51
+145            android:label="@string/title_activity_help" >
+145-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:133:13-56
+146        </activity>
+147        <activity
+147-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:135:9-140:20
+148            android:name="de.syss.MifareClassicTool.Activities.HexToAscii"
+148-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:136:13-50
+149            android:configChanges="orientation|screenSize"
+149-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:137:13-59
+150            android:icon="@drawable/hex_to_ascii"
+150-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:138:13-50
+151            android:label="@string/title_activity_hex_to_ascii" >
+151-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:139:13-64
+152        </activity>
+153        <activity
+153-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:141:9-146:20
+154            android:name="de.syss.MifareClassicTool.Activities.TagInfoTool"
+154-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:142:13-51
+155            android:configChanges="orientation|screenSize"
+155-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:143:13-59
+156            android:icon="@drawable/tag_info"
+156-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:144:13-46
+157            android:label="@string/title_activity_tag_info" >
+157-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:145:13-60
+158        </activity>
+159        <activity
+159-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:147:9-152:20
+160            android:name="de.syss.MifareClassicTool.Activities.ValueBlockTool"
+160-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:148:13-54
+161            android:configChanges="orientation|screenSize"
+161-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:149:13-59
+162            android:icon="@drawable/value_block_tool"
+162-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:150:13-54
+163            android:label="@string/title_activity_value_block_tool" >
+163-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:151:13-68
+164        </activity>
+165        <activity
+165-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:153:9-158:20
+166            android:name="de.syss.MifareClassicTool.Activities.AccessConditionTool"
+166-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:154:13-59
+167            android:configChanges="orientation|screenSize"
+167-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:155:13-59
+168            android:icon="@drawable/access_condition_tool"
+168-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:156:13-59
+169            android:label="@string/title_activity_access_condition_tool" >
+169-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:157:13-73
+170        </activity>
+171        <activity
+171-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:159:9-164:20
+172            android:name="de.syss.MifareClassicTool.Activities.Preferences"
+172-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:160:13-51
+173            android:configChanges="orientation|screenSize"
+173-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:161:13-59
+174            android:icon="@drawable/preferences"
+174-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:162:13-49
+175            android:label="@string/title_activity_preferences" >
+175-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:163:13-63
+176        </activity>
+177        <activity
+177-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:165:9-170:20
+178            android:name="de.syss.MifareClassicTool.Activities.DiffTool"
+178-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:166:13-48
+179            android:configChanges="orientation|screenSize"
+179-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:167:13-59
+180            android:icon="@drawable/diff_tool"
+180-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:168:13-47
+181            android:label="@string/title_activity_diff_tool" >
+181-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:169:13-61
+182        </activity>
+183        <activity
+183-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:171:9-176:20
+184            android:name="de.syss.MifareClassicTool.Activities.BccTool"
+184-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:172:13-47
+185            android:configChanges="orientation|screenSize"
+185-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:173:13-59
+186            android:icon="@drawable/bcc_tool"
+186-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:174:13-46
+187            android:label="@string/title_activity_bcc_tool" >
+187-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:175:13-60
+188        </activity>
+189        <activity
+189-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:177:9-182:20
+190            android:name="de.syss.MifareClassicTool.Activities.CloneUidTool"
+190-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:178:13-52
+191            android:configChanges="orientation|screenSize"
+191-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:179:13-59
+192            android:icon="@drawable/clone_uid"
+192-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:180:13-47
+193            android:label="@string/title_activity_clone_uid" >
+193-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:181:13-61
+194        </activity>
+195        <activity
+195-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:183:9-188:20
+196            android:name="de.syss.MifareClassicTool.Activities.ImportExportTool"
+196-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:184:13-56
+197            android:configChanges="orientation|screenSize"
+197-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:185:13-59
+198            android:icon="@drawable/value_block_tool"
+198-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:186:13-54
+199            android:label="@string/title_activity_import_export_tool" >
+199-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:187:13-70
+200        </activity>
+201        <activity
+201-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:189:9-194:20
+202            android:name="de.syss.MifareClassicTool.Activities.UidLogTool"
+202-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:190:13-50
+203            android:configChanges="orientation|screenSize"
+203-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:191:13-59
+204            android:icon="@drawable/edit_dump"
+204-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:192:13-47
+205            android:label="@string/title_activity_uid_log_tool" >
+205-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:193:13-64
+206        </activity>
+207        <activity
+207-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:195:9-200:20
+208            android:name="de.syss.MifareClassicTool.Activities.DataConversionTool"
+208-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:196:13-58
+209            android:configChanges="orientation|screenSize"
+209-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:197:13-59
+210            android:icon="@drawable/hex_to_ascii"
+210-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:198:13-50
+211            android:label="@string/title_activity_data_conversion_tool" >
+211-->/home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/AndroidManifest.xml:199:13-72
+212        </activity>
+213
+214        <uses-library
+214-->[androidx.window:window:1.0.0] /root/.gradle/caches/transforms-3/8f9220d66762372c6aa1e02e07b4f277/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+215            android:name="androidx.window.extensions"
+215-->[androidx.window:window:1.0.0] /root/.gradle/caches/transforms-3/8f9220d66762372c6aa1e02e07b4f277/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+216            android:required="false" />
+216-->[androidx.window:window:1.0.0] /root/.gradle/caches/transforms-3/8f9220d66762372c6aa1e02e07b4f277/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+217        <uses-library
+217-->[androidx.window:window:1.0.0] /root/.gradle/caches/transforms-3/8f9220d66762372c6aa1e02e07b4f277/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+218            android:name="androidx.window.sidecar"
+218-->[androidx.window:window:1.0.0] /root/.gradle/caches/transforms-3/8f9220d66762372c6aa1e02e07b4f277/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+219            android:required="false" />
+219-->[androidx.window:window:1.0.0] /root/.gradle/caches/transforms-3/8f9220d66762372c6aa1e02e07b4f277/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+220    </application>
+221
+222</manifest>

@@ -1,0 +1,23 @@
+de.syss.MifareClassicTool.app-pngs-0 /home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/build/generated/res/pngs/release
+de.syss.MifareClassicTool.app-resValues-1 /home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/build/generated/res/resValues/release
+de.syss.MifareClassicTool.app-rs-2 /home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/build/generated/res/rs/release
+de.syss.MifareClassicTool.app-mergeReleaseResources-3 /home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+de.syss.MifareClassicTool.app-mergeReleaseResources-4 /home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+de.syss.MifareClassicTool.app-merged_res-5 /home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/build/intermediates/merged_res/release
+de.syss.MifareClassicTool.app-main-6 /home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/res
+de.syss.MifareClassicTool.app-release-7 /home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/release/res
+de.syss.MifareClassicTool.app-savedstate-1.1.0-8 /root/.gradle/caches/transforms-3/2e2ef0c2ea0d78e691f994ec68600c77/transformed/savedstate-1.1.0/res
+de.syss.MifareClassicTool.app-recyclerview-1.0.0-9 /root/.gradle/caches/transforms-3/33d809cb016f59c870b9198a81faa47b/transformed/recyclerview-1.0.0/res
+de.syss.MifareClassicTool.app-coordinatorlayout-1.0.0-10 /root/.gradle/caches/transforms-3/3fa6512a9d4dee4adc600ab35404b8df/transformed/coordinatorlayout-1.0.0/res
+de.syss.MifareClassicTool.app-appcompat-1.1.0-11 /root/.gradle/caches/transforms-3/7208d67472441715d1167eab9181d58e/transformed/appcompat-1.1.0/res
+de.syss.MifareClassicTool.app-window-1.0.0-12 /root/.gradle/caches/transforms-3/8f9220d66762372c6aa1e02e07b4f277/transformed/window-1.0.0/res
+de.syss.MifareClassicTool.app-transition-1.4.1-13 /root/.gradle/caches/transforms-3/936a6cf0b800d678beef4a0e564f2e50/transformed/transition-1.4.1/res
+de.syss.MifareClassicTool.app-annotation-experimental-1.3.0-14 /root/.gradle/caches/transforms-3/9d8d7feb3580355ffff343143a4678dc/transformed/annotation-experimental-1.3.0/res
+de.syss.MifareClassicTool.app-slidingpanelayout-1.2.0-15 /root/.gradle/caches/transforms-3/aea016e58638633e6e91f6f930a69e1e/transformed/slidingpanelayout-1.2.0/res
+de.syss.MifareClassicTool.app-appcompat-resources-1.1.0-16 /root/.gradle/caches/transforms-3/b1c8b6d94cd7665a189c58e2796884f2/transformed/appcompat-resources-1.1.0/res
+de.syss.MifareClassicTool.app-lifecycle-runtime-2.3.1-17 /root/.gradle/caches/transforms-3/bb9750cbd2b4a57b272a0039ca8044e2/transformed/lifecycle-runtime-2.3.1/res
+de.syss.MifareClassicTool.app-preference-1.2.0-18 /root/.gradle/caches/transforms-3/ca0063bc7e2e394f6c40e6a69560c9c2/transformed/preference-1.2.0/res
+de.syss.MifareClassicTool.app-fragment-1.3.6-19 /root/.gradle/caches/transforms-3/de00681d1b149848a0dab915e4ae741a/transformed/fragment-1.3.6/res
+de.syss.MifareClassicTool.app-core-1.9.0-20 /root/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/res
+de.syss.MifareClassicTool.app-lifecycle-viewmodel-2.3.1-21 /root/.gradle/caches/transforms-3/ed0dcc84bb4da1170b45e819be0fa879/transformed/lifecycle-viewmodel-2.3.1/res
+de.syss.MifareClassicTool.app-core-ktx-1.9.0-22 /root/.gradle/caches/transforms-3/f6c47861666c723a6e14604b0a167eca/transformed/core-ktx-1.9.0/res
