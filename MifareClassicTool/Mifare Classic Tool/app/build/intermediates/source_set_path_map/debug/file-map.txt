@@ -1,11 +1,11 @@
-de.syss.MifareClassicTool.app-pngs-0 /home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/build/generated/res/pngs/debug
-de.syss.MifareClassicTool.app-resValues-1 /home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/build/generated/res/resValues/debug
-de.syss.MifareClassicTool.app-rs-2 /home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/build/generated/res/rs/debug
-de.syss.MifareClassicTool.app-mergeDebugResources-3 /home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
-de.syss.MifareClassicTool.app-mergeDebugResources-4 /home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
-de.syss.MifareClassicTool.app-merged_res-5 /home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/build/intermediates/merged_res/debug
-de.syss.MifareClassicTool.app-debug-6 /home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/debug/res
-de.syss.MifareClassicTool.app-main-7 /home/alumno/PROYECTO gpi2/MifareClassicTool/Mifare Classic Tool/app/src/main/res
+de.syss.MifareClassicTool.app-pngs-0 /home/alumno/Practica_GPI2/MifareClassicTool/Mifare Classic Tool/app/build/generated/res/pngs/debug
+de.syss.MifareClassicTool.app-resValues-1 /home/alumno/Practica_GPI2/MifareClassicTool/Mifare Classic Tool/app/build/generated/res/resValues/debug
+de.syss.MifareClassicTool.app-rs-2 /home/alumno/Practica_GPI2/MifareClassicTool/Mifare Classic Tool/app/build/generated/res/rs/debug
+de.syss.MifareClassicTool.app-mergeDebugResources-3 /home/alumno/Practica_GPI2/MifareClassicTool/Mifare Classic Tool/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+de.syss.MifareClassicTool.app-mergeDebugResources-4 /home/alumno/Practica_GPI2/MifareClassicTool/Mifare Classic Tool/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+de.syss.MifareClassicTool.app-merged_res-5 /home/alumno/Practica_GPI2/MifareClassicTool/Mifare Classic Tool/app/build/intermediates/merged_res/debug
+de.syss.MifareClassicTool.app-debug-6 /home/alumno/Practica_GPI2/MifareClassicTool/Mifare Classic Tool/app/src/debug/res
+de.syss.MifareClassicTool.app-main-7 /home/alumno/Practica_GPI2/MifareClassicTool/Mifare Classic Tool/app/src/main/res
 de.syss.MifareClassicTool.app-savedstate-1.1.0-8 /root/.gradle/caches/transforms-3/2e2ef0c2ea0d78e691f994ec68600c77/transformed/savedstate-1.1.0/res
 de.syss.MifareClassicTool.app-recyclerview-1.0.0-9 /root/.gradle/caches/transforms-3/33d809cb016f59c870b9198a81faa47b/transformed/recyclerview-1.0.0/res
 de.syss.MifareClassicTool.app-coordinatorlayout-1.0.0-10 /root/.gradle/caches/transforms-3/3fa6512a9d4dee4adc600ab35404b8df/transformed/coordinatorlayout-1.0.0/res
